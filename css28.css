@@ -1,0 +1,68 @@
+body{
+	padding:0px;
+	margin:0px;
+	background-color:black;
+	font-family:sans-serif;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+
+}
+.container{
+	position:relative;
+	width:50%;
+	height:50%;
+	min-width:1000px;
+	min-height:1000px;
+	background:white;
+	margin:50px;
+	display:flex;
+	box-shadow:0 35px 55px black;
+}
+.left{
+	float:left;
+	position:relative;
+	background:blue;
+	padding:40px;
+	width:30%;
+	height:1000px;
+	color:white;
+	text-align:center;
+
+}
+
+.right{
+	float:right;
+	position:relative;
+	background:white;
+	padding:40px;
+	width:70%;
+	height:1000px;
+	color:black;
+	
+}
+.contact{
+	text-align:left;
+}
+.project{
+	text-align:left;
+}
+.signature{
+	text-align:right;
+}
+.objective{
+line-height: 2;
+}
+.aq{
+	line-height: 2;
+}
+.skills{
+	line-height: 2;
+}
+.achivement{
+	line-height: 2;
+}
+.certification{
+	line-height: 2;
+}
